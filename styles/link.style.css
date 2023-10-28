@@ -1,0 +1,13 @@
+#footer-link {
+  align-items: center;
+  position: relative;
+}
+
+.line {
+  min-width: 50%;
+  max-width: 50%;
+  height: 0px;
+  border: 1px solid #eceff2;
+  margin: auto;
+  margin-bottom: 16px;
+}

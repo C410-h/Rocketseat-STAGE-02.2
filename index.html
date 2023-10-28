@@ -11,46 +11,54 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/content.style.css" />
+    <link rel="stylesheet" href="styles/footer.style.css" />
+    <link rel="stylesheet" href="styles/link.style.css" />
   </head>
 
   <body>
     <main id="main">
-      <img
-        src="./assets/banner.png"
-        alt="Imagem de menina ao lado do globo com aviões sobrevoando."
-      />
-      <h1>O seu próximo <span>destino</span> pode estar aqui...</h1>
-      <p>
-        Aqui você encontra uma seleção de
-        <span>pacotes completos</span> para as suas férias!
-        <br />
-        <br />
-        Na <strong>Flutuar</strong> você encontra pacotes de viagens nacionais e
-        internacionais que incluem: passagens aéreas, hotéis, café da manhã, e
-        até seguro viagem com <span>preços arrasadores</span>!
-      </p>
+      <main class="content-main">
+        <div>
+          <img
+            src="./assets/banner.png"
+            alt="Imagem de menina ao lado do globo com aviões sobrevoando."
+          />
+          <h1>O seu próximo <span>destino</span> pode estar aqui...</h1>
+          <p>
+            Aqui você encontra uma seleção de
+            <span>pacotes completos</span> para as suas férias!
+            <br />
+            <br />
+            Na <strong>Flutuar</strong> você encontra pacotes de viagens
+            nacionais e internacionais que incluem: passagens aéreas, hotéis,
+            café da manhã, e até seguro viagem com
+            <span>preços arrasadores</span>!
+          </p>
 
-      <p>
-        Se você ainda não tem um destino definido, confira nossa seção de
-        ofertas.
-      </p>
+          <p>
+            Se você ainda não tem um destino definido, confira nossa seção de
+            ofertas.
+          </p>
+        </div>
+
+        <section id="footer-link">
+          <div class="line"></div>
+          <a target="_blank" href="https://www.cvc.com.br/passagens-aereas"
+            >Destinos
+          </a>
+          <a
+            target="_blank"
+            href="https://www.cvc.com.br/lp/promocoes/saldao-de-pacotes"
+            >Ofertas
+          </a>
+          <a target="_blank" href="https://www.cvc.com.br/atendimento/faq"
+            >Contatos
+          </a>
+        </section>       
+      </main>
     </main>
-    <div id="footer">
-      <div class="line"></div>
-
-      <a target="_blank" href="https://www.cvc.com.br/passagens-aereas"
-        >Destinos</a
-      >
-      <a
-        target="_blank"
-        href="https://www.cvc.com.br/lp/promocoes/saldao-de-pacotes"
-        >Ofertas</a
-      >
-      <a target="_blank" href="https://www.cvc.com.br/atendimento/faq"
-        >Contatos</a
-      >
-    </div>
-    <footer id="wave">
+    <footer class="wave">
       <img
         src="./assets/Wave.svg"
         alt="onda azul que preenche horizontalmente a página"
